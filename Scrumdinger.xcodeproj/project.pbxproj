@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E494C472AE43E2200329901 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E494C462AE43E2200329901 /* ThemeView.swift */; };
+		9E494C492AE4404500329901 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E494C482AE4404500329901 /* ThemePickerView.swift */; };
 		9E687ECE2ADE294D000C86F7 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E687ECD2ADE294D000C86F7 /* DailyScrum.swift */; };
 		9E687ED02ADE2A04000C86F7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E687ECF2ADE2A04000C86F7 /* CardView.swift */; };
 		9E687EDA2ADE2F1F000C86F7 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E687ED92ADE2F1F000C86F7 /* TrailingIconLabelStyle.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E494C462AE43E2200329901 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		9E494C482AE4404500329901 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
 		9E687ECD2ADE294D000C86F7 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		9E687ECF2ADE2A04000C86F7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9E687ED92ADE2F1F000C86F7 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 		9E8078D22ADE208700861A9D = {
 			isa = PBXGroup;
 			children = (
+				9E494C482AE4404500329901 /* ThemePickerView.swift */,
 				9E8078DD2ADE208700861A9D /* Scrumdinger */,
 				9E8078DC2ADE208700861A9D /* Products */,
 			);
@@ -71,6 +76,7 @@
 				9E687ECF2ADE2A04000C86F7 /* CardView.swift */,
 				9E687EDB2ADE31B0000C86F7 /* ScrumsView.swift */,
 				9E687EDD2ADE3690000C86F7 /* ScrumDetailView.swift */,
+				9E494C462AE43E2200329901 /* ThemeView.swift */,
 				9E687EDF2ADE4645000C86F7 /* ScrumDetailEditView.swift */,
 				9E8078E22ADE208800861A9D /* Assets.xcassets */,
 				9E8078E42ADE208800861A9D /* Preview Content */,
@@ -171,9 +177,11 @@
 				9E687EDA2ADE2F1F000C86F7 /* TrailingIconLabelStyle.swift in Sources */,
 				9EF925632ADE272200183816 /* Theme.swift in Sources */,
 				9E687EDC2ADE31B0000C86F7 /* ScrumsView.swift in Sources */,
+				9E494C492AE4404500329901 /* ThemePickerView.swift in Sources */,
 				9E687EE02ADE4645000C86F7 /* ScrumDetailEditView.swift in Sources */,
 				9E8078E12ADE208700861A9D /* MeetingView.swift in Sources */,
 				9E8078DF2ADE208700861A9D /* ScrumdingerApp.swift in Sources */,
+				9E494C472AE43E2200329901 /* ThemeView.swift in Sources */,
 				9E687ED02ADE2A04000C86F7 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
